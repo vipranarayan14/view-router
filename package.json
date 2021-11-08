@@ -14,11 +14,14 @@
   },
   "source": "src/index.js",
   "main": "dist/main.js",
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "prebuild": "rm -rf dist/*",
     "build": "parcel build"
   },
-  "files": [],
   "devDependencies": {
     "parcel": "^2.0.0"
   }
