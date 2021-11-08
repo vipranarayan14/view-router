@@ -1,0 +1,25 @@
+{
+  "name": "@vipranaraya14/view-router",
+  "version": "0.1.0",
+  "description": "Simple router based on URL hash and HTML element ids",
+  "author": "Prasanna Venkatesh T S <vipranarayan14@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/vipranarayan14/view-router#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipranarayan14/view-router.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vipranarayan14/view-router/issues"
+  },
+  "source": "src/index.js",
+  "main": "dist/main.js",
+  "scripts": {
+    "prebuild": "rm -rf dist/*",
+    "build": "parcel build"
+  },
+  "files": [],
+  "devDependencies": {
+    "parcel": "^2.0.0"
+  }
+}
